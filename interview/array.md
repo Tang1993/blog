@@ -60,7 +60,7 @@
 	  }
 	 
 	  return ret
-}
+	}
 
 核心是构建了一个 hash 对象来替代 indexOf. 注意在 JavaScript 里，对象的键值只能是字符串，因此需要var key = typeof(item) + item 来区分数值 1 和字符串 '1' 等情况。
 
